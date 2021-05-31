@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #1261e0;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #db5a3d;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.singleCountryList {
+  border: solid 0.5px grey;
+  text-align: start;
+  padding: 5px;
+}
+
+.singleCountryList > a {
+  margin-left: 25px;
+}
